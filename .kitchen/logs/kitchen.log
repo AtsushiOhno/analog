@@ -1,0 +1,148 @@
+I, [2014-09-29T16:08:37.374164 #5457]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+E, [2014-09-29T16:08:37.374542 #5457] ERROR -- Kitchen: ------Exception-------
+E, [2014-09-29T16:08:37.374580 #5457] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-09-29T16:08:37.374607 #5457] ERROR -- Kitchen: Message: Kitchen YAML file /home/yw/analog/site-cookbooks/analog/.kitchen.yml does not exist.
+E, [2014-09-29T16:08:37.374634 #5457] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-09-29T16:08:37.374659 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/loader/yaml.rb:74:in `read'
+E, [2014-09-29T16:08:37.374685 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:78:in `data'
+E, [2014-09-29T16:08:37.374710 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:66:in `suites'
+E, [2014-09-29T16:08:37.374735 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:90:in `filter_instances'
+E, [2014-09-29T16:08:37.374761 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-09-29T16:08:37.374786 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:52:in `instances'
+E, [2014-09-29T16:08:37.374812 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:64:in `get_filtered_instances'
+E, [2014-09-29T16:08:37.374837 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:85:in `parse_subcommand'
+E, [2014-09-29T16:08:37.374862 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/command/test.rb:42:in `block in call'
+E, [2014-09-29T16:08:37.374888 #5457] ERROR -- Kitchen: /usr/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2014-09-29T16:08:37.374913 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/command/test.rb:40:in `call'
+E, [2014-09-29T16:08:37.374939 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:47:in `perform'
+E, [2014-09-29T16:08:37.374964 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:153:in `test'
+E, [2014-09-29T16:08:37.374989 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2014-09-29T16:08:37.375014 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2014-09-29T16:08:37.375040 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:233:in `invoke_task'
+E, [2014-09-29T16:08:37.375066 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2014-09-29T16:08:37.375093 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2014-09-29T16:08:37.375118 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-09-29T16:08:37.375144 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-09-29T16:08:37.375170 #5457] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/bin/kitchen:13:in `<top (required)>'
+E, [2014-09-29T16:08:37.375196 #5457] ERROR -- Kitchen: /usr/local/bin/kitchen:23:in `load'
+E, [2014-09-29T16:08:37.375221 #5457] ERROR -- Kitchen: /usr/local/bin/kitchen:23:in `<main>'
+E, [2014-09-29T16:08:37.375247 #5457] ERROR -- Kitchen: ----------------------
+I, [2014-09-29T16:10:03.886937 #5506]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-09-29T16:10:04.122726 #5506]  INFO -- Kitchen: -----> Cleaning up any prior instances of <default-ubuntu-1204>
+I, [2014-09-29T16:10:04.123122 #5506]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1204>...
+I, [2014-09-29T16:10:04.125164 #5506]  INFO -- Kitchen: -----> Testing <default-ubuntu-1204>
+I, [2014-09-29T16:10:04.125392 #5506]  INFO -- Kitchen: -----> Creating <default-ubuntu-1204>...
+I, [2014-09-29T16:10:39.069659 #5612]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-09-29T16:10:39.243160 #5612]  INFO -- Kitchen: -----> Cleaning up any prior instances of <default-centos-65>
+I, [2014-09-29T16:10:39.243574 #5612]  INFO -- Kitchen: -----> Destroying <default-centos-65>...
+I, [2014-09-29T16:10:39.245624 #5612]  INFO -- Kitchen: -----> Testing <default-centos-65>
+I, [2014-09-29T16:10:39.245876 #5612]  INFO -- Kitchen: -----> Creating <default-centos-65>...
+E, [2014-09-29T16:15:59.594553 #5612] ERROR -- Kitchen: ------Exception-------
+E, [2014-09-29T16:15:59.594600 #5612] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2014-09-29T16:15:59.594629 #5612] ERROR -- Kitchen: Message: Failed to complete #create action: [Expected process to exit with [0], but received '1'
+---- Begin output of vagrant up --no-provision --provider=virtualbox ----
+STDOUT: Bringing machine 'default' up with 'virtualbox' provider...
+[default] Importing base box 'opscode-centos-6.5'...
+Progress: 10%Progress: 20%Progress: 30%Progress: 40%Progress: 50%Progress: 60%Progress: 80%Progress: 90%[default] Matching MAC address for NAT networking...
+[default] Setting the name of the VM...
+[default] Clearing any previously set forwarded ports...
+[default] Fixed port collision for 22 => 2222. Now on port 2202.
+[default] Clearing any previously set network interfaces...
+[default] Preparing network interfaces based on configuration...
+[default] Forwarding ports...
+[default] -- 22 => 2202 (adapter 1)
+[default] Booting VM...
+[default] Waiting for machine to boot. This may take a few minutes...
+STDERR: Timed out while waiting for the machine to boot. This means that
+Vagrant was unable to communicate with the guest machine within
+the configured ("config.vm.boot_timeout" value) time period. This can
+mean a number of things.
+
+If you're using a custom box, make sure that networking is properly
+working and you're able to connect to the machine. It is a common
+problem that networking isn't setup properly in these boxes.
+Verify that authentication configurations are also setup properly,
+as well.
+
+If the box appears to be booting properly, you may want to increase
+the timeout ("config.vm.boot_timeout") value.
+---- End output of vagrant up --no-provision --provider=virtualbox ----
+Ran vagrant up --no-provision --provider=virtualbox returned 1]
+E, [2014-09-29T16:15:59.594658 #5612] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-09-29T16:15:59.594685 #5612] ERROR -- Kitchen: Class: Kitchen::ShellOut::ShellCommandFailed
+E, [2014-09-29T16:15:59.594712 #5612] ERROR -- Kitchen: Message: Expected process to exit with [0], but received '1'
+---- Begin output of vagrant up --no-provision --provider=virtualbox ----
+STDOUT: Bringing machine 'default' up with 'virtualbox' provider...
+[default] Importing base box 'opscode-centos-6.5'...
+Progress: 10%Progress: 20%Progress: 30%Progress: 40%Progress: 50%Progress: 60%Progress: 80%Progress: 90%[default] Matching MAC address for NAT networking...
+[default] Setting the name of the VM...
+[default] Clearing any previously set forwarded ports...
+[default] Fixed port collision for 22 => 2222. Now on port 2202.
+[default] Clearing any previously set network interfaces...
+[default] Preparing network interfaces based on configuration...
+[default] Forwarding ports...
+[default] -- 22 => 2202 (adapter 1)
+[default] Booting VM...
+[default] Waiting for machine to boot. This may take a few minutes...
+STDERR: Timed out while waiting for the machine to boot. This means that
+Vagrant was unable to communicate with the guest machine within
+the configured ("config.vm.boot_timeout" value) time period. This can
+mean a number of things.
+
+If you're using a custom box, make sure that networking is properly
+working and you're able to connect to the machine. It is a common
+problem that networking isn't setup properly in these boxes.
+Verify that authentication configurations are also setup properly,
+as well.
+
+If the box appears to be booting properly, you may want to increase
+the timeout ("config.vm.boot_timeout") value.
+---- End output of vagrant up --no-provision --provider=virtualbox ----
+Ran vagrant up --no-provision --provider=virtualbox returned 1
+E, [2014-09-29T16:15:59.594747 #5612] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-09-29T16:15:59.594776 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/shell_out.rb:70:in `rescue in run_command'
+E, [2014-09-29T16:15:59.594802 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/shell_out.rb:59:in `run_command'
+E, [2014-09-29T16:15:59.594828 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/base.rb:158:in `run_command'
+E, [2014-09-29T16:15:59.594854 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:123:in `run'
+E, [2014-09-29T16:15:59.594881 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:68:in `create'
+E, [2014-09-29T16:15:59.594920 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-09-29T16:15:59.594958 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-09-29T16:15:59.594987 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:305:in `call'
+E, [2014-09-29T16:15:59.595014 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:305:in `block in synchronize_or_call'
+E, [2014-09-29T16:15:59.595042 #5612] ERROR -- Kitchen: <internal:prelude>:10:in `synchronize'
+E, [2014-09-29T16:15:59.595068 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:303:in `synchronize_or_call'
+E, [2014-09-29T16:15:59.595095 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-09-29T16:15:59.595122 #5612] ERROR -- Kitchen: /usr/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2014-09-29T16:15:59.595148 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-09-29T16:15:59.595175 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-09-29T16:15:59.595202 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:252:in `create_action'
+E, [2014-09-29T16:15:59.595230 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-09-29T16:15:59.595257 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-09-29T16:15:59.595284 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-09-29T16:15:59.595310 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:141:in `verify'
+E, [2014-09-29T16:15:59.595337 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:170:in `block in test'
+E, [2014-09-29T16:15:59.595363 #5612] ERROR -- Kitchen: /usr/lib/ruby/1.9.1/benchmark.rb:280:in `measure'
+E, [2014-09-29T16:15:59.595389 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:166:in `test'
+E, [2014-09-29T16:15:59.595416 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-09-29T16:15:59.595442 #5612] ERROR -- Kitchen: /var/lib/gems/1.9.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-09-29T16:15:59.595469 #5612] ERROR -- Kitchen: ----------------------
+I, [2014-09-29T16:18:32.099725 #11225]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-09-29T16:18:32.280919 #11225]  INFO -- Kitchen: -----> Cleaning up any prior instances of <default-centos-65>
+I, [2014-09-29T16:18:32.281289 #11225]  INFO -- Kitchen: -----> Destroying <default-centos-65>...
+I, [2014-09-29T16:18:32.282633 #11225]  INFO -- Kitchen: -----> Testing <default-centos-65>
+I, [2014-09-29T16:18:32.282779 #11225]  INFO -- Kitchen: -----> Creating <default-centos-65>...
+I, [2014-09-29T16:18:33.478570 #11225]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-09-29T16:21:09.489159 #11436] ERROR -- Kitchen: 
+No instances for regex `definitions/', try running `kitchen list'
+
+
+I, [2014-09-29T17:48:58.914517 #29723]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-09-29T17:48:59.281595 #29723]  INFO -- Kitchen: -----> Cleaning up any prior instances of <default-centos-65>
+I, [2014-09-29T17:48:59.282663 #29723]  INFO -- Kitchen: -----> Destroying <default-centos-65>...
+I, [2014-09-29T17:49:02.139435 #29723]  INFO -- Kitchen: -----> Testing <default-centos-65>
+I, [2014-09-29T17:49:02.139558 #29723]  INFO -- Kitchen: -----> Creating <default-centos-65>...
+I, [2014-09-29T17:49:53.242202 #29723]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+I, [2014-09-29T17:51:06.843829 #29723]  INFO -- Kitchen: -----> Setting up <default-centos-65>...
+I, [2014-09-29T17:51:06.845780 #29723]  INFO -- Kitchen: -----> Verifying <default-centos-65>...
+I, [2014-09-29T17:51:06.847108 #29723]  INFO -- Kitchen: -----> Destroying <default-centos-65>...
+I, [2014-09-29T17:51:12.254556 #29723]  INFO -- Kitchen: -----> Kitchen is finished. (2m13.34s)
